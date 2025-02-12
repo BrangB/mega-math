@@ -1,0 +1,22 @@
+{
+  "name": "@brang/mega-math",
+  "version": "1.0.0",
+  "description": "A comprehensive math utilities library for advanced mathematical operations, including matrix calculations, prime number checks, factorials, and financial formulas like compound interest and EMI calculators.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrangB/mega-math.git"
+  },
+  "keywords": ["math"],
+  "author": "brangtsawmaung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrangB/mega-math/issues"
+  },
+  "homepage": "https://github.com/BrangB/mega-math#readme"
+}
