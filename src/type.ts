@@ -1,4 +1,2 @@
-export type testProps = {
-    name: string;
-    age: number;
-}
+
+export type NumberOperation = (a: number, b: number) => number;
