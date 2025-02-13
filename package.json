@@ -1,5 +1,5 @@
 {
-  "name": "@brang/mega-math",
+  "name": "mega-math",
   "version": "1.0.0",
   "description": "A comprehensive math utilities library for advanced mathematical operations, including matrix calculations, prime number checks, factorials, and financial formulas like compound interest and EMI calculators.",
   "main": "./dist/index.js",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
+
 }

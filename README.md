@@ -17,12 +17,12 @@ You can install the package via npm or yarn:
 
 ### Using npm
 ```bash
-npm install @brang/mega-math
+npm install mega-math
 ```
 
 ### Using yarn
 ```bash
-yarn add @brang/mega-math
+yarn add mega-math
 ```
 
 ---
@@ -33,7 +33,7 @@ Here’s how to use the library:
 
 ### Importing the functions
 ```typescript
-import { add, subtract, multiply, divide } from "@brang/mega-math";
+import { add, subtract, multiply, divide } from "mega-math";
 
 // Perform addition
 const sum = add(5, 10); // 15
@@ -52,7 +52,7 @@ const quotient = divide(10, 5); // 2
 Since the package is written in TypeScript, it includes type definitions for all the functions:
 
 ```typescript
-import { add } from "@brang/mega-math";
+import { add } from "mega-math";
 
 const sum: number = add(5, 10); // Works perfectly with TypeScript!
 ```
